@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,19 +13,37 @@
   <link rel="stylesheet" href="css/flexcol.css">
   <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
 </head>
+
 <body>
-  
+
   <header>
     <div class="container">
       <nav class="header__nav row align-center between">
         <a href="#" class="header__logo col-md-5"><img src="img/site-logp.png" alt="img"></a>
         <ul class="header__list row align-center col-md-7 between-xs">
-          <li class="header__item">home</li>
-          <li class="header__item">pages</li>
+          <li class="header__item">
+            <a class="header__link" href="#">Home </a>
+            <i class='bx bx-chevron-down'></i>
+            <div class="header__link-inner">
+              <a class="link-inner__link" href="#">Home one</a>
+              <a class="link-inner__link" href="#">Home two</a>
+            </div>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Pages </a>
+            <i class='bx bx-chevron-down'></i>
+            <div class="header__link-inner">
+              <a class="link-inner__link" href="#">Home one</a>
+              <a class="link-inner__link" href="#">Home two</a>
+              <a class="link-inner__link" href="#">Home one</a>
+              <a class="link-inner__link" href="#">Home two</a>
+            </div>
+          </li>
           <li class="header__item">features</li>
           <li class="header__item">roadmap</li>
           <li class="header__item">team</li>
@@ -44,11 +63,12 @@
         <div class="hero__div row align-center  ">
           <div class="special__descrip col-xs-12 col-md-12 col-lg-6 ">
             <h2 class="special__title">Invest In Cryptocoin Way To Trade</h2>
-            <p class="special__txt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</p>
-            <a href="#" class="special__btn">learn more</a>
+            <p class="special__txt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              doloremque laudantium, totam rem</p>
+            <a href="#" class="special__btn header__item-btn  ">learn more</a>
           </div>
 
-          <div class="special__img col-xs-12 col-md-12 col-lg-6 ">
+          <div class="special__img col-xs-12 col-md-12 col-lg-6 center-xs ">
             <img src="img/hero-img.png" alt="">
           </div>
 
@@ -61,19 +81,27 @@
         <div class="swing__descrip col-xs-12 middle-xs ">
           <span class="swing__span">WHAT IS CRYPYCON</span>
           <h2 class="swing__title">how it Works</h2>
-          <p class="swing__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste animi iusto nisi ab nostrum. Labore nam corrupti quam deleniti earum ad accusamus unde laboriosam voluptatem?</p>
+          <p class="swing__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste animi iusto nisi ab
+            nostrum. Labore nam corrupti quam deleniti earum ad accusamus unde laboriosam voluptatem?</p>
         </div>
 
         <div class="circle row align-center">
-         <div  class="inner col-xs-12 middle-xs middle-md  col-md-6 col-lg-6">
-          <img src="img/aylana.png" alt="img">
-         </div>
+          <div class="inner col-xs-12 middle-xs middle-md  col-md-6 col-lg-6">
+            <div class="axaxa">
+
+            </div>
+            <img src="img/aylana.png" alt="img">
+          </div>
           <div class="circle__descrip col-xs-12 col-md-6 col-lg-6">
             <h3 class="circle__title">We’ve built a platform to buy and sell shares</h3>
-            <p class="circle__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
-            <span class="circle__spans"><i class='bx bxs-check-circle' style='color:#09e2e8'  ></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,!</span>
-            <span class="circle__spans"><i class='bx bxs-check-circle' style='color:#09e2e8'  ></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,!</span>
-            <span class="circle__spans"><i class='bx bxs-check-circle' style='color:#09e2e8'  ></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,!</span>
+            <p class="circle__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+            <span class="circle__spans"><i class='bx bxs-check-circle' style='color:#09e2e8'></i>Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Explicabo,!</span>
+            <span class="circle__spans"><i class='bx bxs-check-circle' style='color:#09e2e8'></i>Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Explicabo,!</span>
+            <span class="circle__spans"><i class='bx bxs-check-circle' style='color:#09e2e8'></i>Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Explicabo,!</span>
           </div>
         </div>
 
@@ -85,40 +113,109 @@
         <div class="features__descrip col-xs-12">
           <span class="features__span">crypton feature</span>
           <h2 class="feature__title">Best Feature</h2>
-          <p class="features__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio nam sequi nobis, ratione id <br> corporis labore reprehenderit voluptatibus aperiam.</p>
+          <p class="features__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas optio nam sequi nobis,
+            ratione id <br> corporis labore reprehenderit voluptatibus aperiam.</p>
         </div>
 
         <ul class="wrapper__list row">
           <li class="wrapper__item col-xs-12 col-sm-6 col-md-6 col-lg-4 middle-xs">
             <h3 class="wrapper__title">Safe & Secure</h3>
-            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
+            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor
+              incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
           </li>
           <li class="wrapper__item col-xs-12 col-sm-6 col-md-6 col-lg-4 middle-xs">
             <h3 class="wrapper__title">Early Bonus</h3>
-            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
+            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor
+              incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
           </li>
           <li class="wrapper__item col-xs-12 col-sm-6 col-md-6 col-lg-4 middle-xs">
             <h3 class="wrapper__title">Universal Access</h3>
-            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
+            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor
+              incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
           </li>
           <li class="wrapper__item col-xs-12 col-sm-6 col-md-6 col-lg-4 lasts middle-xs">
             <h3 class="wrapper__title">Secure Storage</h3>
-            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
+            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor
+              incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
           </li>
           <li class="wrapper__item col-xs-12 col-sm-6 col-md-6 col-lg-4 lasts middle-xs">
             <h3 class="wrapper__title">Low Cost</h3>
-            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
+            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor
+              incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
           </li>
           <li class="wrapper__item col-xs-12 col-sm-6 col-md-6 col-lg-4 lasts middle-xs">
             <h3 class="wrapper__title">Several Profit</h3>
-            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
+            <p class="wrapper__txt">Lorem ipsum dolor sit amet, consectetur adipi-sicing elit, sed do eiusmod tempor
+              incididunt ut labore et.Lorem ipsum dolor sit amet, labore et.Lorem ipsum dolor sit amet.</p>
           </li>
         </ul>
 
       </div>
     </section>
 
+    <section id="big-team-section">
+      <div class="container">
+        <div class="team-descrip middle-xs">
+          <span class="team__span">MEET THE TEAM</span>
+          <h3 class="taem__title">Our Team</h3>
+          <p class="team__txt">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          </p>
+        </div>
+
+        <ul class="team__list row between">
+          <li class="team__item col-xs-12 col-sm-6 col-md-6 middle-xs center-xs row">
+            <img src="img/man.jpg" alt="img">
+            <div class="catch">
+              <h3 class="team__item-title">John Doe</h3>
+              <p class="team__item-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                it amet, consectetur</p>
+              <i class='bx bxl-facebook' style='color:#9c9797'></i>
+              <i class='bx bxl-instagram' style='color:#9c9797'></i>
+              <i class='bx bxl-linkedin' style='color:#9c9797'></i>
+            </div>
+          </li>
+          <li class="team__item col-xs-12 col-sm-6 col-md-6 middle-xs center-xs row">
+            <img src="img/joe.jpg" alt="img">
+            <div class="catch">
+              <h3 class="team__item-title">Jeck Bret</h3>
+              <p class="team__item-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                it amet, consectetur</p>
+              <i class='bx bxl-facebook' style='color:#9c9797'></i>
+              <i class='bx bxl-instagram' style='color:#9c9797'></i>
+              <i class='bx bxl-linkedin' style='color:#9c9797'></i>
+            </div>
+          </li>
+          <li class="team__item col-xs-12 col-sm-6 col-md-6 middle-xs center-xs row">
+            <img src="img/lili.jpg" alt="img">
+            <div class="catch">
+              <h3 class="team__item-title">Lili Hrap</h3>
+              <p class="team__item-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                it amet, consectetur</p>
+              <i class='bx bxl-facebook' style='color:#9c9797'></i>
+              <i class='bx bxl-instagram' style='color:#9c9797'></i>
+              <i class='bx bxl-linkedin' style='color:#9c9797'></i>
+            </div>
+          </li>
+          <li class="team__item col-xs-12 col-sm-6 col-md-6 middle-xs center-xs row">
+            <img src="img/lusi.jpg" alt="img">
+            <div class="catch">
+              <h3 class="team__item-title">Lusi Jackop</h3>
+              <p class="team__item-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                it amet, consectetur</p>
+              <i class='bx bxl-facebook' style='color:#9c9797'></i>
+              <i class='bx bxl-instagram' style='color:#9c9797'></i>
+              <i class='bx bxl-linkedin' style='color:#9c9797'></i>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+
   </main>
 
 </body>
+
 </html>
