@@ -176,7 +176,7 @@ header {
 }
 
 .header__item-btn a {
-  color: var(--color-ffffff) ;
+  color: var(--color-ffffff);
 }
 
 .special__btn {
@@ -613,6 +613,43 @@ header {
   margin-top: 30px;
 }
 
+.countries__span {
+  display: block;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 5px;
+  align-items: center;
+  text-align: center;
+  color: var(--color-16d5ff);
+}
+
+
+.countries__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #111;
+}
+
+.countries__txt {
+  width: 400px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: var(--color-999);
+  padding-bottom: 20px;
+}
+
 .bitcoin__description {
   text-align: start;
 }
@@ -640,6 +677,7 @@ header {
   color: var(--color-16d5ff);
   padding-left: 15px;
 }
+
 .take span {
   font-style: normal;
   font-weight: normal;
@@ -683,7 +721,7 @@ header {
 }
 
 .special__descrip {
-  animation-name:leftAnimation ;
+  animation-name: leftAnimation;
   animation-duration: 2s;
 }
 
@@ -742,7 +780,7 @@ header {
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
-}
+  }
 
   100% {
     transform: translateX(0%);
@@ -760,7 +798,7 @@ header {
     -moz-transform: translateX(100%);
     -ms-transform: translateX(100%);
     -o-transform: translateX(100%);
-}
+  }
 
   100% {
     transform: translateX(0%);
@@ -1050,6 +1088,7 @@ header {
   .bitcoin__description {
     text-align: center;
   }
+
   .bitcoin {
     padding-top: 20px;
   }
@@ -1168,6 +1207,7 @@ header {
   .graph {
     margin: 0 auto;
   }
+
   .bitcoin {
     padding-top: 20px;
   }
