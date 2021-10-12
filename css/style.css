@@ -732,7 +732,7 @@ header {
   color: var(--color-888);
   display: flex;
   text-align: start;
-  margin-bottom: 15px;
+  margin-bottom: 15pxdi;
 }
 
 @keyframes leftAnimation {
