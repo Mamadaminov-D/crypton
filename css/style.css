@@ -60,11 +60,12 @@ header {
 }
 
 .header__item a {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 21px;
-  color: var(--color-111);
+  color: var(--color-999);
 }
 
 .header__link-inner {
@@ -154,7 +155,7 @@ header {
 }
 
 .hero__div {
-  margin-top: 150px;
+  margin-top: 50px;
   padding: 0 80px;
 }
 
@@ -172,6 +173,10 @@ header {
   font-size: 16px;
   line-height: 25px;
   padding-bottom: 20px;
+}
+
+.header__item-btn a {
+  color: var(--color-ffffff) ;
 }
 
 .special__btn {
@@ -659,6 +664,7 @@ header {
 }
 
 .bitcoin {
+  overflow: hidden;
   padding-top: 20px;
 }
 
@@ -676,6 +682,94 @@ header {
   padding: 0 10px;
 }
 
+.special__descrip {
+  animation-name:leftAnimation ;
+  animation-duration: 2s;
+}
+
+.right {
+  animation-name: rightAnimation;
+  animation-duration: 2s;
+}
+
+#app-section {
+  background-color: #F2F8FE;
+  margin: 50px 0;
+}
+
+.app-div {
+  margin-top: 50px;
+}
+
+.app__span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--color-16d5ff);
+  padding-left: 15px;
+}
+
+.app__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 55px;
+  padding-bottom: 20px;
+}
+
+.app__txt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 20px;
+  color: var(--color-888);
+}
+
+.aps {
+  color: var(--color-888);
+  display: flex;
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+@keyframes leftAnimation {
+  0% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+
+  100% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+  }
+}
+
+@keyframes rightAnimation {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+  100% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+  }
+}
 
 @keyframes first {
   0% {
