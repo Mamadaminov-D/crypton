@@ -559,6 +559,7 @@ header {
   border-radius: 50%;
   background-color: red;
 }
+
 .color-code-2::before {
   content: "";
   position: absolute;
@@ -569,6 +570,7 @@ header {
   border-radius: 50%;
   background-color: rgb(0, 255, 85);
 }
+
 .color-code-3::before {
   content: "";
   position: absolute;
@@ -579,6 +581,7 @@ header {
   border-radius: 50%;
   background-color: rgb(55, 0, 255);
 }
+
 .color-code-4::before {
   content: "";
   position: absolute;
@@ -589,6 +592,7 @@ header {
   border-radius: 50%;
   background-color: rgb(187, 255, 0);
 }
+
 .color-code-5::before {
   content: "";
   position: absolute;
@@ -603,6 +607,90 @@ header {
 .token-graphic-detail {
   margin-top: 30px;
 }
+
+.bitcoin__description {
+  text-align: start;
+}
+
+.cities {
+  margin-top: 30px;
+}
+
+.bitcoin__txt {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--color-888);
+
+}
+
+.take time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color-16d5ff);
+  padding-left: 15px;
+}
+.take span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color-16d5ff);
+}
+
+.lear {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color-16d5ff);
+  padding-left: 15px;
+}
+
+.lear:hover {
+  color: var(--color-111);
+}
+
+.bitcoin {
+  padding-top: 20px;
+}
+
+.bitcoin img {
+  transform: scale(1);
+  transition: all 1s ease;
+}
+
+.bitcoin img:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+.bitcoin {
+  padding: 0 10px;
+}
+
+
+@keyframes first {
+  0% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
 
 @keyframes bg-animation {
   0% {
@@ -717,6 +805,10 @@ header {
 
   .catch {
     text-align: center;
+  }
+
+  .bitcoin {
+    padding-top: 20px;
   }
 
 }
@@ -836,6 +928,10 @@ header {
   .graph {
     margin: 0 auto;
   }
+
+  .bitcoin {
+    padding-top: 20px;
+  }
 }
 
 
@@ -851,6 +947,17 @@ header {
 
   .graph {
     margin: 0 auto;
+  }
+
+  .cities {
+    align-items: center;
+  }
+
+  .bitcoin__description {
+    text-align: center;
+  }
+  .bitcoin {
+    padding-top: 20px;
   }
 }
 
@@ -940,6 +1047,10 @@ header {
     margin: 0 auto;
   }
 
+  .bitcoin {
+    padding-top: 20px;
+  }
+
 }
 
 @media screen and (max-width:490px) {
@@ -962,5 +1073,8 @@ header {
 
   .graph {
     margin: 0 auto;
+  }
+  .bitcoin {
+    padding-top: 20px;
   }
 }
